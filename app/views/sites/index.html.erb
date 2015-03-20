@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Sites</h1>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Domain</th>
+      <th>Profile</th>
+      <th>Platform</th>
+      <th>Last cron</th>
+      <th>Verified</th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @sites.each do |site| %>
+      <tr>
+        <td><%= site.domain %></td>
+        <td><%= site.profile_id %></td>
+        <td><%= site.platform_id %></td>
+        <td><%= site.last_cron %></td>
+        <td><%= site.verified %></td>
+        <td><%= link_to 'Show', site %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+

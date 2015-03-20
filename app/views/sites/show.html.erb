@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Domain:</strong>
+  <%= @site.domain %>
+</p>
+
+<p>
+  <strong>Profile:</strong>
+  <%= @site.profile_id %>
+</p>
+
+<p>
+  <strong>Platform:</strong>
+  <%= @site.platform_id %>
+</p>
+
+<p>
+  <strong>Last cron:</strong>
+  <%= @site.last_cron %>
+</p>
+
+<p>
+  <strong>Verified:</strong>
+  <%= @site.verified %>
+</p>
+
+<%= link_to 'Edit', edit_site_path(@site) %> |
+<%= link_to 'Back', sites_path %>

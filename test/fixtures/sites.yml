@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  domain: MyString
+  profile_id: 1
+  platform_id: 1
+  last_cron: 2015-03-19 18:26:15
+  verified: 2015-03-19 18:26:15
+
+two:
+  domain: MyString
+  profile_id: 1
+  platform_id: 1
+  last_cron: 2015-03-19 18:26:15
+  verified: 2015-03-19 18:26:15
